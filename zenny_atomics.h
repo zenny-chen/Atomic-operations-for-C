@@ -16,7 +16,7 @@
 /** Common Atomic Type */
 struct ZennyAtomicType
 {
-    int32_t alignas(sizeof(int32_t[4])) values[4];
+    intmax_t alignas(sizeof(intmax_t[2])) values[2];
 };
 
 // MARK: Initialization
